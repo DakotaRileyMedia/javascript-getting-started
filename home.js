@@ -1,2 +1,1 @@
-alert('Hello World!');
-alert('Second Message');
+showMessage("Changes...")
