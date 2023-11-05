@@ -1,4 +1,3 @@
-let price =99.99;
+const price = 40;
 
 showMessage(price);
-console.log(price);
