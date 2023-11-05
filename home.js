@@ -1,3 +1,6 @@
-const price = 40;
+let person = {
+    firstName: 'John',
+    lastName: 'Adams'
+};
 
-showMessage(price);
+showMessage(person.firstName);
