@@ -1,3 +1,3 @@
 let welcome = 'Welcome';
 
-showMessage("Changes...");
+showMessage(welcome);
