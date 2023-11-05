@@ -1,3 +1,4 @@
-let welcome = 'Welcome';
+let price =99.99;
 
-showMessage(welcome);
+showMessage(price);
+console.log(price);
