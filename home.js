@@ -1,7 +1,3 @@
-let name = 'Andrea';
-let message = `Hello 
+let message = "123";
 
-${name}`;
-
-showMessage(message);
-console.log(message);
+showMessage(message + 2);
