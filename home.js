@@ -1,3 +1,3 @@
-let message = "123";
+let amount = Number.parseFloat("123.12A");
 
-showMessage(message + 2);
+showMessage(amount);
