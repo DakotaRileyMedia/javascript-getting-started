@@ -1,6 +1,6 @@
-let person = {
-  firstName: 'John',
-  lastName: 'Adams'
-};
+let price = 10;
 
-showMessage(person.firstName);
+if (price !== 15) {
+  showMessage('discounted');
+}
+
