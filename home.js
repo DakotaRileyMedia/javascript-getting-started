@@ -1,3 +1,3 @@
-let amount = Number.parseFloat("123.12A");
-
-showMessage(amount);
+let saved = true;
+saved = !saved;
+showMessage(saved);
