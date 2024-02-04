@@ -1,3 +1,7 @@
-let amount = 0;
+let name = 'Andrea';
+let message = `Hello 
 
-showMessage(--amount);
+${name}`;
+
+showMessage(message);
+console.log(message);
