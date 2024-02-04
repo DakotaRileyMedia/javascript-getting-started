@@ -1,7 +1,5 @@
+let price = 12,
+    taxRate = 0.07;
 
-
-
-let price = 25;
-
-showMessage(price);
+showMessage(--price);
 console.log(price);
