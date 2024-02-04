@@ -1,4 +1,7 @@
 
-const price = 20;
+
+
+let price = 25;
 
 showMessage(price);
+console.log(price);
