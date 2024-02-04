@@ -1,4 +1,6 @@
-let saved = 10;
-saved = undefined;
-showMessage(saved);
-console.log(saved);
+let person = {
+  firstName: 'John',
+  lastName: 'Adams'
+};
+
+showMessage(person.firstName);
