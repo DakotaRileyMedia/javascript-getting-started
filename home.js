@@ -1,12 +1,21 @@
+let productId = 12345;
 
 const app = {
-  productId: 12345,
   userName: 'Joe',
   orderNumbe: 789
 };
 
 function showProductId() {
-  console.log(app.productId);
+
+
+  function fix() {
+
+    console.log('in fix: ', productId);
+  }
+
+  fix();
+
+  console.log('in showProductId: ', productId);
 }
 
 showProductId();
