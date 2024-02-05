@@ -1,7 +1,7 @@
-
-let myFunction = function loggingFunction (message, firstName) {
-  console.log(message);
-  console.log(firstName);
+function getSecretCode (value) {
+  let code = value * 42;
+  return code;
 }
 
-myFunction('Hello', 'John');
+let secretCode =getSecretCode(2)
+showMessage( secretCode );
