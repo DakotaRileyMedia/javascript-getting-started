@@ -16,22 +16,45 @@ button.addEventListener('click', function () {
 
 });
 
-// Arrays
+// arrays
 const values = ['a', 'b', 'c'];
-// Push
+// push
 values.push('d', 'e', 'f');
-// Pop
+// pop
 let last = values.pop();
-// Shift
+// shift
 let first = values.shift();
-// Unshift
+// unshift
 values.unshift('hello', 'world')
-// Slice
+// slice
 let newValues = values.slice(1, 3);
-// Splice for deleting
+// splice for deleting
 let newNewValues = values.splice(1, 3);
-// Splice for inserting
+// splice for inserting
 values.splice(2, 0, 'hello');
 
 console.log( first, values, last, newValues, newNewValues );
 
+const values2 = [ 'a', 'bbb', 'c', 'd', 'z' ];
+
+// indexOf
+console.log(values2.indexOf('c'));
+
+// filter
+const set = values2.filter(function(item) {
+  return item > 'b';
+});
+
+console.log( set );
+
+// find
+const found = values2.find(function(item) {
+  return item.length > 1;
+});
+
+console.log( found) ;
+
+// forEach
+values2.forEach(function(item) {
+  console.log(item);
+});
