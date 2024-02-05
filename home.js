@@ -15,3 +15,8 @@ button.addEventListener('click', function () {
   }
 
 });
+
+
+const values = ['a', 'b', 'c'];
+
+console.log(Array.isArray(values));
