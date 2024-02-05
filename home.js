@@ -1,4 +1,16 @@
 
+const app = {
+  productId: 12345,
+  userName: 'Joe',
+  orderNumbe: 789
+};
+
+function showProductId() {
+  console.log(app.productId);
+}
+
+showProductId();
+
 const button = document.getElementById('see-review');
 
 button.addEventListener('click', function () {
@@ -16,6 +28,7 @@ button.addEventListener('click', function () {
 
 });
 
+/* 
 // arrays
 const values = ['a', 'b', 'c'];
 // push
@@ -60,6 +73,9 @@ values2.forEach(function(item) {
 });
 
 // Using arrays in the DOM
-const containers = document.getElementsByClassName('container');
-containers[0].classList.add('d-none');
-console.log(containers);
+// const containers = document.getElementsByClassName('container');
+// containers[0].classList.add('d-none');
+// console.log(containers);
+
+*/
+
