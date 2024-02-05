@@ -1,14 +1,3 @@
+let s = 'Hello';
 
-let person = {
-  name: 'John',
-  age: 32,
-  partTime: false
-};
-
-function incrementAge(p) {
-  p.age++;
-}
-
-incrementAge( person );
-
-showMessage(person.age);
+showMessage( s.charAt(1) );
