@@ -1,11 +1,9 @@
 
+'use strict';
 
-// Hoisting
-showProductId();
+let productId = 1234;
 
-function showProductId() {
-  console.log(123);
-}
+console.log(window.productId);
 
 const button = document.getElementById('see-review');
 
@@ -103,5 +101,14 @@ showProductId();
 //console.log(productId);
 
 //let productId = 123;
+
+// Hoisting
+showProductId();
+
+function showProductId() {
+  console.log(123);
+}
+
+
 */
 
