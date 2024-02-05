@@ -1,3 +1,5 @@
-for (let i = 0; i <= 5; i++) {
+let i = 4;
+while (i > 0) {
   console.log(i);
+  i--;
 }
