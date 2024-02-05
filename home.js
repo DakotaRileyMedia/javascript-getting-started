@@ -3,7 +3,7 @@
 
 let productId = 1234;
 
-console.log(window.productId);
+console.log(productId);
 
 const button = document.getElementById('see-review');
 
