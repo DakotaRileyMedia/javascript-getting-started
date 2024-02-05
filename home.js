@@ -58,3 +58,8 @@ console.log( found) ;
 values2.forEach(function(item) {
   console.log(item);
 });
+
+// Using arrays in the DOM
+const containers = document.getElementsByClassName('container');
+containers[0].classList.add('d-none');
+console.log(containers);
