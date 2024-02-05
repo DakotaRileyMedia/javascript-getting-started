@@ -1,6 +1,5 @@
-if (1 === "1") {
-  showMessage('true');
-}
-else {
-  showMessage('false');
-}
+
+let price = 20;
+
+let message = (price < 10) ? 'Yes' : 'No';
+showMessage(message);
