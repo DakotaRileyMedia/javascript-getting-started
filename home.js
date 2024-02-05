@@ -5,9 +5,9 @@ let person = {
   name: 'John',
   age: 32,
   partTime: false,
-  [mySymbol]: 'Secret Information'
+  showInfo: function(realAge) {
+    showMessage(this.name + ' is ' + realAge);
+  }
+
 };
-
-person['age'] = 44;
-
-showMessage(person.age);
+showMessage( typeof person.showInfo );
