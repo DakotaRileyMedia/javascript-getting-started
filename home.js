@@ -18,6 +18,9 @@ button.addEventListener('click', function () {
 
 
 const values = ['a', 'b', 'c'];
-values[0] = 'aaa';
-console.log( values[0] );
+values.push('d', 'e', 'f');
+let last = values.pop();
+let first = values.shift();
+values.unshift('hello', 'world')
+console.log( first, values, last );
 
