@@ -1,5 +1,6 @@
 
-const header = document.getElementById('message');
+const button = document.getElementById('see-review');
 
-header.style.color = '#fff';
-header.style.fontWeight = '800';
+button.addEventListener('click', function () {
+  console.log('click');
+});
