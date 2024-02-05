@@ -1,5 +1,7 @@
-let i = 4;
-do {
-  console.log(i);
-  i--;
-} while (i > 0);
+
+function logMessage() {
+  console.log('Here is a function');
+}
+
+logMessage();
+logMessage();
