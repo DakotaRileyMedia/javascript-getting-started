@@ -1,24 +1,11 @@
-let productId = 12345;
 
-const app = {
-  userName: 'Joe',
-  orderNumbe: 789
-};
+
+// Hoisting
+showProductId();
 
 function showProductId() {
-
-
-  function fix() {
-
-    console.log('in fix: ', productId);
-  }
-
-  fix();
-
-  console.log('in showProductId: ', productId);
+  console.log(123);
 }
-
-showProductId();
 
 const button = document.getElementById('see-review');
 
@@ -86,5 +73,35 @@ values2.forEach(function(item) {
 // containers[0].classList.add('d-none');
 // console.log(containers);
 
+
+let productId = 12345;
+
+const app = {
+  userName: 'Joe',
+  orderNumbe: 789
+};
+
+function showProductId() {
+
+
+  function fix() {
+
+    console.log('in fix: ', productId);
+  }
+
+  fix();
+
+  console.log('in showProductId: ', productId);
+}
+
+showProductId();
+
+// Do Not DO THis:
+
+//productId = 456;
+
+//console.log(productId);
+
+//let productId = 123;
 */
 
