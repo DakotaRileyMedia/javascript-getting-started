@@ -1,6 +1,7 @@
 
-let myFunction = function loggingFunction () {
-  console.log('Here is a function');
+let myFunction = function loggingFunction (message, firstName) {
+  console.log(message);
+  console.log(firstName);
 }
 
-myFunction();
+myFunction('Hello', 'John');
